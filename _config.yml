@@ -18,7 +18,7 @@ owner:
   name:   crossroads
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Weber State University Special Collections Ogden Crossroads website template
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +33,11 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://ubun2junky.github.io/crossroads/gallery/"  
-  - JOURNAL: "http://ubun2junky.github.io/crossroads/journal/"
-  - ABOUT: "http://ubun2junky.github.io/crossroads/about/"
+  - ABOUT THE PROJECT: "http://ubun2junky.github.io/crossroads/about/"  
+  - PEOPLE: "http://ubun2junky.github.io/crossroads/people/"
+  - PLACES: "http://ubun2junky.github.io/crossroads/about/"
+  - EVENT: "http://ubun2junky.github.io/crossroads/event/"
+  - CONTACT US: "http://ubun2junky.github.io/crossroads/contactus/"
 
 # All translation keys
 translations:
