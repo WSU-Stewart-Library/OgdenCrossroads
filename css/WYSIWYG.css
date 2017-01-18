@@ -14,7 +14,7 @@ body.fullscreen #content > .wrapper { padding: 0; }
 
 /* Text on Dark Background (over images) */
 body.fullscreen ul.social-icons, body.fullscreen  #footer p { vertical-align: bottom; padding-bottom: 0; line-height: 1.1; }
-body.fullscreen ul.social-icons li a  { color: white; }
+body.fullscreen ul.social-icons li a  { color: arkslategrey; }
 
 body.fullscreen .position-absolute { color: #dddddd;  bottom: 0; left: 0; width: 100%; padding: 0 4.5%; /*-webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);*/ -webkit-transition: -webkit-transform 0.5s; transition: transform 0.5s; }
@@ -140,7 +140,7 @@ ul.soc-icons { list-style: none; display: inline-block; vertical-align: top; pad
 ul.soc-icons::after { content: ""; display: block; clear: both; }
 ul.soc-icons li { display: inline-block; padding: 0 0 0 1em; font-size: 1.5em; }
 ul.soc-icons li a { text-decoration: none !important;}
-ul.soc-icons li a:hover i { color: #000;
+ul.soc-icons li a:hover i {color: #8446ac;
 	-moz-animation: spinHorizontal .5s linear;
     -o-animation: spinHorizontal .5s linear;    
     -webkit-animation: spinHorizontal .5s linear;
