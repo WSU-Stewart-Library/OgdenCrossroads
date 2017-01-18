@@ -21,13 +21,13 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #760824;
+  color: /*#760824*/#8446ac;
   transition: color .4s;
   text-decorarion: none;
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: /*#fff*/#a391b1;
      transition: color .3s;
     outline: none;
     text-shadow:none;
@@ -83,7 +83,7 @@ hr.small {
     padding: 20px;
   }
   .navbar-custom .nav li a:hover{
-    color: #0085a1;
+    color: #7f56c5;
   }
 }
 @media only screen and (min-width: 1170px) {
