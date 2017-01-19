@@ -1,6 +1,6 @@
 # Site settings
 title: PHOTORAMA
-email: ""
+email: "specialcollections@weber.edu"
 description: "Photo Journal"
 url: "https://ubun2junky.github.io"
 baseurl: "/crossroads"
@@ -37,7 +37,7 @@ nav:
   - PEOPLE: "http://ubun2junky.github.io/crossroads/people/"
   - PLACES: "http://ubun2junky.github.io/crossroads/places/"
   - EVENTS: "http://ubun2junky.github.io/crossroads/events/"
-  - CONTACT US: "http://ubun2junky.github.io/crossroads/contactus/"
+  - CONTACT US: "mailto:specialcollections@weber.edu"
 
 # All translation keys
 translations:
