@@ -4,9 +4,9 @@ title:      "Spotlight On 25th"
 subtitle:   "Street That Never Slept"
 active: journal
 image:
-  feature: "pc001.jpg"
+  feature: "25.jpg"
 date:       2014-04-04
-header-img: "img/postcover/pc001.jpg"
+header-img: "img/postcover/25.jpg"
 tags: []
 categories: []
 comments: false
