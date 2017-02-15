@@ -47,4 +47,10 @@ ul.soc-icons li a:hover, ul.soc-icons li a:focus {
     border-bottom-color: #a391b1 !important;
 }
 
+/* People Joe's Image Styles */
+div#Joe_McQueen {
+	display: block;
+    margin: auto;
+    width: 30%;
+}
 

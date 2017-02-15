@@ -4,16 +4,19 @@ title: "PEOPLE"
 description: ""
 active: about
 header-img: "img/people.jpg"
+images:
+ - image_path: /places/Joe_McQueen.jpeg
+   caption: Joe McQueen & Forrest Crawford
+   copyright: © WSU Special Collections
 ---
-<div class="container-fluid">
-<p>During 2013, Special Collections with the help of history student interns worked on collecting oral histories from people who lived and worked on 25th Street from World War II on.  Over the course of the project over 50 interviews were collected.</p>
- 
-<p>The interviews can be viewed here:    <a href="https://library.weber.edu/taxonomy/term/105">Business At The Crossroads Interviews</a></p>
-</div>
+
+<p>During 2013, Special Collections with the help of history student interns worked on collecting oral histories from people who lived and worked on 25th Street from World War II and on. Over the course of the project over 50 interviews were collected.</p>
+
+<p>The interviews can be viewed here:    <a href="https://library.weber.edu/taxonomy/term/105" target="_blank">Business At The Crossroads Interviews</a></p>
 
 <div class="row">
 	<div class="col-sm-3 col-md-6">
-	<h3>ORAL HISTORY INTERVIEWEES</h3>
+	<h4>ORAL HISTORY INTERVIEWEES</h4>
 		<p>
 			<ul>
 				<li>Aoki, Dave</li>
@@ -50,9 +53,9 @@ header-img: "img/people.jpg"
 				<li>Zenger, Eric</li>
 			</ul>
 		</p>
-	</div>
+	</div><!-- close column -->
 <div class="col-sm-3 col-md-6">
-	<h3>IMMIGRANTS AT THE CROSSROADS</h3>
+	<h4>IMMIGRANTS AT THE CROSSROADS</h4>
 
 	<p>
 		<ul>
@@ -77,6 +80,67 @@ header-img: "img/people.jpg"
 			<li>Wolthius, Robert</li>
 		</ul>
 	</p>
-</div>
-</div>
+</div><!-- close column -->
+</div><!-- close row -->
+
 <br>
+
+<!-- Gallery __-->
+			<div class="gallery" id="Joe_McQueen" style="display: block; margin: auto; width: 30%;">
+{% for image in page.images %}  		
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+			</div>
+</div><!-- end Gallery -->
+
+<p style="font-size: 16px; font-style: italic; text-align: center;">All interviews have become part of the historical record in Special Collections</p>
+<br>
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+          type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+      image: {
+         titleSrc: function(item) {
+             return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
