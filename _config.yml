@@ -1,5 +1,5 @@
 # Site settings
-title: PHOTORAMA
+title: Ogden Crossroads
 email: "specialcollections@weber.edu"
 description: "Photo Journal"
 url: "https://ubun2junky.github.io"
@@ -35,7 +35,7 @@ comments :
 nav:
   - ABOUT THE PROJECT: "http://ubun2junky.github.io/crossroads/about/"  
   - PEOPLE: "http://ubun2junky.github.io/crossroads/people/"
-  - PLACES: "http://ubun2junky.github.io/crossroads/places/"
+  - GALLERY: "http://ubun2junky.github.io/crossroads/places/"
   - EVENTS: "http://ubun2junky.github.io/crossroads/events/"
   - CONTACT US: "mailto:specialcollections@weber.edu"
 
