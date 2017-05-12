@@ -2,9 +2,8 @@
 title: Ogden Crossroads
 email: "specialcollections@weber.edu"
 description: "Photo Journal"
-host: ""
-url: "http://ogdencrossroads.weber.edu"
-baseurl: ""
+url: "https://ubun2junky.github.io"
+baseurl: "/crossroads"
 facebook_username: "SpecialCollections"
 twitter_username: 
 instagram_username: 
@@ -34,11 +33,11 @@ comments :
 
 # Internal nav
 nav:
-  - ABOUT THE PROJECT: "/about/"  
-  - IMMIGRANTS: "/immigrants"
-  - BUSINESS: "/business/"
-  - GALLERY: "/places/"
-  - EVENTS: "/events/"
+  - ABOUT THE PROJECT: "http://ubun2junky.github.io/crossroads/about/"  
+  - IMMIGRANTS: "http://ubun2junky.github.io/crossroads/immigrants"
+  - BUSINESS: "http://ubun2junky.github.io/crossroads/business/"
+  - GALLERY: "http://ubun2junky.github.io/crossroads/places/"
+  - EVENTS: "http://ubun2junky.github.io/crossroads/events/"
   - CONTACT US: "mailto:specialcollections@weber.edu"
 
 # All translation keys
